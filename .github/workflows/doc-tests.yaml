@@ -86,7 +86,7 @@ jobs:
       # from the yarn cache into node_modules.
       # See:
       # https://github.com/actions/cache/blob/main/examples.md#node---yarn
-      - uses: actions/cache@v4
+      - uses: actions/cache@v6
         id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
         with:
           path: '${{ github.workspace }}/docs/node_modules'
