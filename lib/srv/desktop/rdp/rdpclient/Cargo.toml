@@ -48,7 +48,7 @@ reqwest = { version = "0.12", default-features = false }
 rustls = { version = "0.23.22", default-features = false, features = ["aws-lc-rs"] }
 
 [build-dependencies]
-cbindgen = "0.26.0"
+cbindgen = "0.29.4"
 tempfile = "3.9.0"
 
 [features]
